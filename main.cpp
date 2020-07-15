@@ -164,13 +164,13 @@ Sample get_sample(int dimensions)
     vector<double> coords = {};
     for (int i = 0; i < dimensions; i++)
     {
-        printf("x_%d: ", i);
+        printf("x_%d? ", i);
         double x_i;
         scanf("%lf", &x_i);
         coords.push_back(x_i);
     }
     bool is_type_A;
-    cout << "is_type_A: ";
+    cout << "is_type_A? ";
     cin >> is_type_A;
     return Sample(coords, is_type_A);
 }
