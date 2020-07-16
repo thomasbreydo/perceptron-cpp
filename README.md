@@ -1,7 +1,7 @@
 # perceptron
 
 This is a mini-project in which I create a perceptron from scratch in C++. The
-perceptron learns using the Perceptron Rule 
+perceptron learns using the perceptron learning rule.
 
 # What is a perceptron?
 
