@@ -55,10 +55,10 @@ At each *epoch*, the following adjustments are made for each sample (simplified)
 2. Otherwise,
 
     2.1. If the sample is of type `0` but is being classified `1`, the weights
-    must *increase*.
+    are *increased*.
 
     2.2. If the sample is of type `1` but is being classified `0`, the weights
-    must *decrease*.
+    are *decreased*.
 
 # Example usage
 First, the program asks us how many samples (points) we would like to define, as well as their dimensionality.
