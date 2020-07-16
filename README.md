@@ -46,7 +46,7 @@ we'll initialize `weights` to `{1, 1, ..., 1}` and `bias` to `0`.
 Learning consists of repeating an identical process a total of `n` times where
 `n` is the number of *epochs*. Learning also requires a *learning rate*, `lr`,
 which specifies how sloppily-but-quickly or carefully-but-slowly our perceptron
-arrives at an ideal set of `weights` and `bias`.
+arrives at an ideal `weights` and `bias`.
 
 At each *epoch*, the following adjustments are made for each sample (simplified):
 
