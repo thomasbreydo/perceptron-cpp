@@ -112,8 +112,7 @@ perceptron have create very good separating line for the data:
 
 ![trained](images/trained.png)
 
-Finally, the program shows how much of the training data (all user-given
-samples) are now successfully classified by the perceptron.
+Finally, the program shows how much of the training data is now successfully classified by the perceptron.
 ```
 Predicted 1 for Sample({-2.00, 1.75}, is_type_A: 1) ✓
 Predicted 1 for Sample({-1.25, 0.25}, is_type_A: 1) ✓
