@@ -108,7 +108,7 @@ to separate the data. Recall that a `weights` of `{-0.3, 0.02}` and a `bias` of
 We can generalize this to `x` and `y`, giving us the inequality for a line.
 All points above the line will be classified as **blue**, and those below it
 will be classified as **red**. As you can see, the parameters of the trained
-perceptron have create very good separating line for the data:
+perceptron have created a very good separating line for the data:
 
 ![trained](images/trained.png)
 
